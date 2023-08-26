@@ -1,0 +1,76 @@
+.creation_page {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+.creation_page-header {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 10px;
+
+}
+.creation_page-header-item {
+  display: flex;
+  width: 25%;
+}
+.creation_page-header-item-icon {
+  margin-right: 5px;
+}
+.creation_page-header-canel {
+  cursor: pointer;
+}
+.publication_creation {
+  width: 100%;
+}
+.publication_creation_form {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0 10px;
+}
+.publication_creation_form-avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.publication_creation_form-container-form_input {
+  width: 80%;
+}
+.publication_creation_form-form_input {
+  width: 100%;
+  /* height: 30px; */
+  margin: 0 10px;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+}
+.publication_creation_form-form_input-smile {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.publication_creation_form-container-btn {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  padding: 10px 10px 0 0;
+}
+.publication_creation_form-bth {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(24, 24, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

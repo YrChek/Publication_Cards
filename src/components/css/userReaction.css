@@ -1,0 +1,29 @@
+.reaction {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 0;
+  justify-content: space-evenly;
+}
+.like {
+  display: flex;
+  align-items: center;
+}
+.icon-like {
+  width: 30px;
+  height: 30px;
+  background-image: url('/src/assets/like.png');
+  background-size: contain;
+  margin-right: 10px;
+}
+.comment {
+  display: flex;
+  align-items: center;
+}
+.icon-comment {
+  width: 30px;
+  height: 30px;
+  background-image: url('/src/assets/comment.png');
+  background-size: contain;
+}

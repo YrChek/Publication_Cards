@@ -1,0 +1,9 @@
+.card-item {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+.card-item-user {
+  padding: 10px;
+  padding-bottom: 0;
+}
